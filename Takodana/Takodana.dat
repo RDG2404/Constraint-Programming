@@ -1,0 +1,39 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: Admin
+ * Creation Date: 31-Oct-2022 at 6:41:02 PM
+ *********************************************/
+ Tasks = {"masonry","carpentry","plumbing","ceiling","roofing","painting","windows", "facade","garden","moving"};
+
+nbHouses  = 3;
+
+Earliness = { 
+  <"masonry", 25, 200.0>,
+  <"carpentry",75,300.0>,
+  <"plumbing",8,100.0>
+};
+Tardiness = { <"moving",100,400.0> };
+
+duration =  [35,15,40,15,05,10,05,10,05,05];
+
+releaseDate = [ 31, 0, 90];
+
+maxEarlinessCost = 5000;
+Precedences = {
+	    <"masonry",   "carpentry">,
+	    <"masonry",   "plumbing">,
+	    <"masonry",   "ceiling">,	
+	    <"carpentry", "roofing">,
+	    <"ceiling",   "painting">,
+	    <"roofing",   "windows">,
+	    <"roofing",   "facade">,
+	    <"plumbing",  "facade">,
+	    <"roofing",   "garden">,
+	    <"plumbing",  "garden">,
+	    <"windows",   "moving">,
+	    <"facade",    "moving">,
+	    <"garden",    "moving">,
+	    <"painting",  "moving"> 
+};
+
+ 
