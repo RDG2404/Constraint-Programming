@@ -1,7 +1,0 @@
-/*********************************************
- * OPL 22.1.0.0 Data
- * Author: Admin
- * Creation Date: 28-Aug-2022 at 10:52:17 PM
- *********************************************/
-Planets = {  Dagobah, Naboo, Geonosis, Kamino, Dantooine, Adleraan, Coruscant, 
-Cantonica, Endor, Nur, Onderon, Takodana };
